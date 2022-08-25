@@ -1,0 +1,526 @@
+body{
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+.container {
+    max-height: 937px;
+    margin: 0 auto;
+ 
+}
+.container > header> {
+
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    position: relative;
+}
+.container>h1{
+    padding-bottom: 10px;
+    color: #02fffc;
+}
+
+    .container > header .top_right {
+        position: absolute;
+        top: 14px;
+        right: 0px;
+        padding-left: 0px;
+        padding-right: 20px;
+        border-bottom-left-radius: 20px;
+        min-height: 50px;
+        background-color:yellow;
+    }
+        
+            .container > header .top_right a {
+                line-height: 35px;
+                font-size: 15px;
+                color: red;
+                text-align: center;
+                font-variant: small-caps;
+            }
+
+        .container > header .company_info {
+            position: absolute;
+            bottom: 10px;
+            left: 5px;
+            padding-left: 20px;
+            padding-right: 10px;
+        }
+
+            .container > header .company_info h1 {
+                color: yellow;
+                font-variant: small-caps;
+                text-shadow: 0 0 5px rgb(83, 146, 138);
+                border-bottom: 1px dotted violet;
+            }
+
+            .container > header .company_info h3 {
+                color: red;
+                font-variant: small-caps;
+                letter-spacing: 4px;
+            }
+
+    .container > nav {
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+        .container > nav .menu_left {
+            text-align: center;
+            width: 75%;
+            background-color: #3b3632;
+            float: left;
+        }
+
+        .container > nav .menu_right {
+            width: 25%;
+            background-color: #3f3b38;
+            float: left;
+            text-align:center;
+        }
+
+    .container > article {
+        min-height: 500px;
+        width: 75%;
+        background-color: blue;
+        float: left;
+    }
+
+    .container > aside {
+        min-height: 200px;
+        width: 20%;
+        background-color: lightgray;
+        float: left;
+    }
+
+    .container > footer {
+        border-top: 5px double orangered;
+        line-height: 50px;
+        background-color: lightcyan;
+        text-align: center;
+        font-variant: small-caps;
+        clear: both;
+    }
+
+    .container > nav > a {
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+        .container > nav > a:hover {
+            color: #02fffc;
+            text-decoration: underline;
+        }
+
+    .container > aside > ul > li > a {
+        color: darkblue;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+iframe[name=page] {
+    width: 100%;
+    min-height: 500px;
+}
+.vmenu {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a {
+      
+        display: block;
+        border-bottom: 1px dotted burlywood;
+        color: blueviolet;
+        font-variant: small-caps;
+        font-size: larger;
+        text-decoration: none;
+        padding: 8px 5px 8px 30px;
+ }
+.vmenu a:hover {
+           
+            border-bottom: 1px dotted white;
+            background-color: bisque;
+            color: white;
+            font-weight: bold;
+}
+.menu > div > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+    .menu > div > ul > li > a {
+        display: block;
+    }
+
+    .menu > div > ul > li > a {
+        display: block;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: large;
+        color: white;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+
+.menu > div > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: hotpink;
+    text-align: center;
+}
+
+    .menu > div > ul > li > a {
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: large;
+        color: white;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+
+.menu > div > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+    .menu > div > ul > li > a:hover {
+        color: yellow;
+    }
+
+.menu > div ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+
+    .menu > div ul ul a {
+        display: block;
+        line-height: 30px;
+        color: orangered;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: large;
+        padding: 0 10px;
+    }
+
+.menu > div > ul > li:hover > ul {
+    display: block;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.ul.menu > li > a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: white;
+}
+
+ul.menu > li > a:hover {
+    color: aquamarine;
+    font-weight: bolder;
+}
+
+ul.menu > li {
+    float: left;
+    margin: 0 5px
+}
+.menu > div > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+    .menu > div > ul > li > a {
+        display: block;
+    }
+
+    .menu > div > ul > li > a {
+        display: block;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: large;
+        color: white;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+
+.menu > div > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+    .menu > div > ul > li > a {
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: large;
+        color: white;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+
+.menu > div > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+    .menu > div > ul > li > a:hover {
+        color: yellow;
+    }
+
+.menu > div ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+
+    .menu > div ul ul a {
+        display: block;
+        line-height: 30px;
+        color: orangered;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: large;
+        padding: 0 10px;
+    }
+
+.menu > div > ul > li:hover > ul {
+    display: block;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.ul.menu > li > a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: white;
+}
+
+ul.menu > li > a:hover {
+    color: aquamarine;
+    font-weight: bolder;
+}
+.from-group {
+    margin: 10px 2px;
+    font-variant: small-caps;
+}
+
+.from-control {
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 320px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    display: block;
+    outline: none;
+}
+
+    .from-control:focus {
+        box-shadow: 0 0 3px orangered;
+    }
+
+.button {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px gray;
+    padding: 5px 10px;
+    outline: none;
+}
+
+    .button:focus {
+        box-shadow: 0 0 3px orangered;
+        color: orangered;
+    }
+
+ul.menu > li {
+    float: left;
+    margin: 0 5px
+}
+.from-group {
+    margin: 10px 2px;
+    font-variant: small-caps;
+}
+
+.from-control {
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 320px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    display: block;
+    outline: none;
+}
+
+    .from-control:focus {
+        box-shadow: 0 0 3px yellowgreen;
+    }
+
+.button {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px gray;
+    padding: 5px 10px;
+    outline: none;
+}
+
+    .button:focus {
+        box-shadow: 0 0 3px orangered;
+        color: orangered;
+    }
+    .col-25 {
+        width: 100%;
+        float: left;
+    }
+    
+    .prod {
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px gray;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        position: relative;
+    }
+    
+        .prod > .name {
+            font-variant: small-caps;
+            color: red;
+        }
+    
+        .prod > .image {
+            max-width: 98%;
+            height: 100vh;
+            background-size: cover;
+            margin-bottom: 10px;
+        }
+    
+        .prod > .price {
+            position: absolute;
+            bottom: 5px;
+            font-family: Impact;
+            font-size: 12px;
+            color: #0094ff;
+        }
+
+      
+        .gioithieu {
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            position: relative;
+            color: blue;
+            font-size: 40px;
+            font-variant: small-caps;
+        }
+        
+        .tieude {
+            font-size: 20px;
+            color: black;
+            font-variant: small-caps;
+        }
+        .container {
+            max-width: 10000px;
+            margin: auto;
+            padding: 30px 400px 10px;
+            background-color: violet;
+            float: left;
+        }
+        
+            .container .form-group {
+                margin: 10px 2px;
+            }
+        
+            .container .font-chu {
+                font-variant: small-caps;
+                font-size: 16px;
+                font-weight: bolder;
+            }
+        
+            .container .form-control {
+                margin: 3px 0px;
+                padding: 5px;
+                border: none;
+                border-radius: 3px;
+                width: 320px;
+                box-shadow: 0 0 3px #15cedb;
+                display: block;
+                outline: none;
+            }
+        
+                .container .form-control:focus {
+                    box-shadow: 0 0 3px orangered;
+                }
+        
+            .container .form-button {
+                border: none;
+                box-shadow: 0 0 3px gray;
+                border-radius: 3px;
+                padding: 5px 10px;
+            }
+        
+                .container .form-button:focus {
+                    color: #15cedb;
+                    box-shadow: 0 0 3px#15cedb;
+                }
+        
+        .maps {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+            width: 700px;
+            float: left;
+        }
+        
+            .maps > iframe {
+                position: absolute;
+                width: 100%;
+                height: 54%;
+                top: 0;
+                left: 0;
+            }
+
